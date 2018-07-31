@@ -1,0 +1,89 @@
+#container
+{
+max-width: 1200px;
+margin:20px auto;
+size: 3em;
+}
+
+body
+{
+	background:#232323;
+	margin: 0;
+	font-family: "Montserrat";
+}
+.square
+{
+	width:30%;
+	size: 5.0em;
+	background:purple;
+	float:left;  
+	padding-bottom: 30%;
+	margin:1.66%;
+	border-radius: 50%;
+	transition: background 0.9s;
+	-Webkit-transition: background 0.9s;
+    -moz-transition:background 0.9s;;
+
+}
+h1
+{
+	color:white;
+	font-weight: normal;
+text-transform: uppercase;
+	font-size: 6.0em;
+  margin:0 auto;
+text-align: center;
+background:steelblue;
+line-height: 1.1;
+padding:20px 0;
+}
+
+#messageDisplay
+{
+	font-size: 5.0em;
+
+}
+#stripe{
+	background:white;
+height:100px;
+text-align: center;
+color:black;
+
+}
+button
+{
+	font-weight: bold;
+	outline: none;
+	font-size: 40px;
+	text-transform: uppercase;
+	background:none;
+	border:none;
+height: 100%;
+font-weight: 3000;
+color: steelblue;
+letter-spacing: 1px; 
+transition: all 0.3s;
+-Webkit-transition: all 0.9s;
+    -moz-transition:all 0.9s;
+ 
+}
+.yay
+{
+	color:yellow;
+}
+.selected{
+	
+	color:white;
+background:steelblue;
+}
+
+}
+#messageDisplay{
+	display: inline-block;
+	width:15%;
+}
+button:hover{
+
+	color: white;
+background:steelblue;
+}
